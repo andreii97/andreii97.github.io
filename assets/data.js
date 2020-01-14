@@ -25,7 +25,7 @@ export default {
     },
     {
       "label": "E-Mail: ",
-      "value": "andrei.ionescu@web.tu-berlin.de"
+      "value": "andrei.ionescu49@yahoo.com"
     }
   ],
   "vita": [
