@@ -60,27 +60,27 @@ export default {
       "entries": [
         {
           "language": "Vue.js",
-          "confidence": 30
-        },
-        {
-          "language": "HTML",
-          "confidence": 100
-        },
-        {
-          "language": "C",
-          "confidence": 90
+          "confidence": "good"
         },
         {
           "language": "JavaScript",
-          "confidence": 75
+          "confidence": "good"
+        },
+        {
+          "language": "Java",
+          "confidence": "algorithms/data structures"
         },
         {
           "language": "Python",
-          "confidence": 50
+          "confidence": "basic skills"
         },
         {
           "language": "Microsoft Office",
-          "confidence": 50
+          "confidence": ""
+        },
+        {
+          "language": "HTML",
+          "confidence": "advanced"
         }
 
       ]

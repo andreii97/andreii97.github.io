@@ -36,7 +36,7 @@ export default {
             <li v-if="entry.timeRange"><b>{{entry.timeRange}} </b>{{entry.value}}</li>        
           </ul>
           <ul v-for="entry in thing.entries">
-            <li v-if="entry.language"><b>{{entry.language}} </b>({{entry.confidence}})</li>
+            <li v-if="entry.language"><b>{{entry.language}} </b><p v-if="entry.confidence">({{entry.confidence}})</p></li>
           </ul>
           <ul v-for="entry in thing.entries">
             <li v-if="!entry.language && !entry.timeRange">{{entry}}</li>
