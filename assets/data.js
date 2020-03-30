@@ -42,8 +42,12 @@ export default {
       "title": "Career",
       "entries": [
         {
-          "timeRange": "March 2019-: ",
+          "timeRange": "March 2019 - February 2020: ",
           "value": "Working student in IT Operations, Vilua Healthcare GmBh"
+        },
+        {
+          "timeRange": "March 2020-: ",
+          "value": "Working student in Backend Developement, Vilua Healthcare GmBh"
         },
         "..."
       ]
