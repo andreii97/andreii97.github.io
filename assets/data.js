@@ -64,19 +64,19 @@ export default {
       "entries": [
         {
           "language": "Vue.js",
-          "confidence": "good"
+          "confidence": 30
         },
         {
           "language": "JavaScript",
-          "confidence": "good"
+          "confidence": 40
         },
         {
           "language": "Java",
-          "confidence": "algorithms/data structures"
+          "confidence": 50
         },
         {
           "language": "Python",
-          "confidence": "basic skills"
+          "confidence": 30
         },
         {
           "language": "Microsoft Office",
@@ -84,52 +84,13 @@ export default {
         },
         {
           "language": "HTML",
-          "confidence": "advanced"
+          "confidence": 70
         }
 
       ]
     }
   ],
   "contact": [
-    {
-      "title": "Newsletter",
-      "formName": "newsletter",
-      "inputs": [
-        {
-          "name": "newsletter-email",
-          "type": "email",
-          "label": "E-Mail-Adresse: ",
-          "placeholder": "your.email@example.com",
-          "required": true
-        }
-      ],
-      "submitButtonLabel": "Newsletter bestellen"
-    },
-    {
-      "title": "Callback",
-      "formName": "rueckruf",
-      "inputs": [
-        {
-          "name": "rueckruf-phone",
-          "type": "tel",
-          "label": "Phone number: ",
-          "required": true
-        },
-        {
-          "name": "rueckruf-date",
-          "type": "date",
-          "label": "Date: ",
-          "required": true
-        },
-        {
-          "name": "rueckruf-time",
-          "type": "time",
-          "label": "Time: ",
-          "required": true
-        }
-      ],
-      "submitButtonLabel": "Um Rückruf bitten"
-    },
     {
       "title": "Contact",
       "formName": "kontaktformular",
