@@ -1,7 +1,7 @@
 export default {
   data: () => {
     return {
-
+    
     }
   },
   props: {
@@ -33,10 +33,14 @@ export default {
         <div class="card-body">
           <h3 class="card-title">{{thing.title}}</h3>
           <ul v-for="entry in thing.entries">
-            <li v-if="entry.timeRange"><b>{{entry.timeRange}} </b>{{entry.value}}</li>        
+            <li v-if="entry.timeRange"><b>{{entry.timeRange}} </b>{{entry.value}}</li>   
           </ul>
           <ul v-for="entry in thing.entries">
-            <li v-if="entry.language"><b>{{entry.language}} </b><p v-if="entry.confidence">({{entry.confidence}})</p></li>
+            <li v-if="entry.language"><b>{{entry.language}} </b>
+            <span v-if="entry.confidence">
+              <b-progress v-bind:value="entry.confidence" max="100"></b-progress>
+            </span>
+            </li> 
           </ul>
           <ul v-for="entry in thing.entries">
             <li v-if="!entry.language && !entry.timeRange">{{entry}}</li>
